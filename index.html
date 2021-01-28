@@ -1,0 +1,124 @@
+<!doctype html>
+
+<html lang="es">
+	<head>
+		<meta charset="utf-8">
+		<meta name="viewport" content="width=device-width, initial-scale=1">
+		
+		<link rel="shortcut icon" type="image/png" href="/favicon.png" >
+
+		<title>Bumeran Especiales - Edición Comercial</title>
+		<meta name="description" content="Ver Ofertas">
+
+		<link rel="stylesheet" href="css/bootstrap.min.css">
+		
+		<link rel="stylesheet" href="css/owl.carousel.css">
+		<link rel="stylesheet" href="css/owl.theme.css">
+		
+		<link rel="stylesheet" href="css/styles.css?v=1.0">
+
+		<!--[if lt IE 9]>
+		<script src="https://cdnjs.cloudflare.com/ajax/libs/html5shiv/3.7.3/html5shiv.js"></script>
+		<![endif]-->
+	</head>
+
+	<body>
+	
+		<section id="header">
+		
+			<div class="container">
+			
+				<img src="imgs/logoBumeran.png" class="brand">
+			
+			</div>
+		
+		</section>
+	
+	
+		<section id="content">
+		
+			<div class="container">
+			
+				<div class="head">
+				
+					<div class="row">
+					
+						<div class="col-md-6">
+						
+							<img src="imgs/header_text.png" class="header-text img-responsive">
+						
+						</div>
+						
+						<div class="col-md-6 hidden-xs hidden-sm">
+						
+							<img src="imgs/corbata.png" class="img-responsive pull-right">
+							
+						</div>
+					
+					</div>
+				
+				</div>
+				
+				<div class="logos">
+				
+					<div class="owl-carousel owl-logos">
+					
+						<div><a href="#"><img src="imgs/logos/logo1.png" class="img-responsive"></a></div>
+						<div><a href="#"><img src="imgs/logos/logo2.png" class="img-responsive"></a></div>
+						<div><a href="#"><img src="imgs/logos/logo3.png" class="img-responsive"></a></div>
+						<div><a href="#"><img src="imgs/logos/logo4.png" class="img-responsive"></a></div>
+						<div><a href="#"><img src="imgs/logos/logo5.png" class="img-responsive"></a></div>
+						<div><a href="#"><img src="imgs/logos/logo6.png" class="img-responsive"></a></div>
+						<div><a href="#"><img src="imgs/logos/logo7.png" class="img-responsive"></a></div>
+						
+					</div>
+
+				</div>
+				
+				<a href="#"><img src="imgs/cta.png" class="cta img-responsive"></a>
+			
+				<br>
+				
+				<div class="pull-right">
+					<img src="imgs/mas.png" class="img-responsive">
+				</div>
+				
+				
+				<br><br><br><br>
+				
+			</div>
+		
+		</section>
+		
+		<script src="js/jquery.min.js"></script>
+		
+		<script src="js/owl.carousel.min.js"></script>
+		<script>
+
+		$(document).ready(function(){
+			 $('.owl-logos').owlCarousel({
+				items:7,
+				nav: false,
+				dots: false,
+				loop: true,
+				autoplay:true,
+				autoplayTimeout:5000,
+				margin:10,
+				responsive:{
+							0:{
+								items:2
+							},
+							600:{
+								items:5
+							},
+							1000:{
+								items:7
+							}
+						}
+			})	
+		})
+		
+		</script>
+		
+	</body>
+</html>
